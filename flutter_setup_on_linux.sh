@@ -19,4 +19,4 @@ PATH=$PATH:$JAVA_HOME/bin
 export PATH
 # android sdk
 export ANDROID_HOME=${HOME}/android-sdk
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools/bin' >> ~/.bashprofile
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools/bin' >> ~/.bash_profile
