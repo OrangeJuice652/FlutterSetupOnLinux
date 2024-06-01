@@ -22,5 +22,3 @@ export ANDROID_HOME=${HOME}/android-sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools/bin' >> ~/.bash_profile
 source ~/.bash_profile
 echo y | sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0"
-rm -r ~/Downloads
-rm -r ~/tmp
